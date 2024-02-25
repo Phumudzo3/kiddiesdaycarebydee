@@ -1,0 +1,73 @@
+.footer{
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-size: 12px;
+    background: white;
+
+}
+.logo,.business-info{
+    width: 20vw;
+   display: block;
+}
+.logo span{
+    display:block;
+    align-items: center;
+   
+  
+}
+.logo{
+ position: relative;
+ right:  50px;
+}
+.business-info{
+  margin-left: 30px;
+  
+  width: 30vw;
+}
+.social-link{
+margin-left: 40px;
+}
+.business-info span{
+   display: flex;
+   margin-left: 25px;
+   align-items: center;
+}
+.social-link span{
+    margin-left: 5px;
+}
+.dev-name{
+    margin-top: 20px;
+    width: 400px;
+  position: relative;
+  right: 130px;
+}
+@media only screen and (max-width:908px){
+.footer{
+  display:block;
+  margin:0 auto;
+  height: 35vh;
+}
+.logo{
+  margin-left: 140px;
+ 
+}
+.business-info,.logo ,.social-link{
+  position: relative;
+  top:50px;  
+}
+.business-info{
+ 
+  margin-left: 100px;
+  width: 50vw;
+
+}
+.social-link{
+display: none;
+  
+}
+.dev-name{
+  margin-left: 40px;
+}
+}

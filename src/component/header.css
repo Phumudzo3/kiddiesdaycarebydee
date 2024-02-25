@@ -1,0 +1,112 @@
+.header{
+    height: 18vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: darkblue;
+}
+.logo-box{
+    
+   margin-left: 90px;
+}
+.contacts-emailphone span{
+  font-size: 50px;
+ display:flex;
+ justify-items: center;
+ margin-top: 120px;
+}
+.items_items{
+    color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.contat-item{
+    margin-top: 100px;
+}
+.items_items span{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo{
+    width: 25vh;
+    
+}
+.navbar{
+margin-right: 20px;
+   
+}
+.navbar span{
+    padding-left: 30px;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+.contact-links{
+    margin-right: 40px;
+    border-radius: 5px;
+    
+}
+.contact-links span{
+    padding-left: 20px;
+}
+@media only screen and (min-width: 909px) and (max-width:1140px){
+.header{
+    max-width: 100%;
+   
+}
+.logo{
+    width: 150px;
+    height: 100px;
+ 
+}
+.navbar{
+  
+   width: 40vw;
+
+  
+}
+.contact-links{
+    width: 20vw;
+    
+    max-width: 100%;
+}
+.contact-links span{
+ width: 5px;
+}
+.navbar span{
+    font-size: 19px;
+ position: relative;
+ right: 16px;
+}
+.iconx{
+transform: scale(0.6);
+}
+   
+}
+@media only screen and (max-width:908px){
+    .header{
+        flex-direction: column;
+        justify-items: center;
+        height: 25vh;
+      
+    }
+   
+    .logo-box{
+    
+        margin-right: 100px;
+     }
+     .items_items span{
+font-size: 18px;
+     }
+     .navbar span{
+      
+        font-size: 18px;
+    }
+}
